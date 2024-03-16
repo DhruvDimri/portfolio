@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    background-color: rgb(27, 25, 25);
+    color: rgb(14, 180, 246);
+    border: 3px solid rgb(14, 180, 246);
+    z-index: 1;
+}
+.partition{
+    display: flex;
+}
+.introContainer{
+    width: 45%;
+    padding-left: 230px;
+    padding-top: 200px;
+}
+.partition img{
+    width: 550px;
+    margin-top: 60px;
+    margin-left: 40px;
+    filter: drop-shadow(1px 1px 7px black);
+}
+.color1{
+    font-size: 40px;
+
+}
+.color2{
+    font-size: 70px;
+  
+}
+.color3{
+    font-size: 40px; 
+  
+}
+.color4{
+    color:  rgb(4, 113, 156);
+}
+.introContainer button{
+margin-top: 15px;
+padding: 10px;
+margin-left: 10px;
+font-size: 17px;
+font-weight: 600;
+}
+.hire{
+    background-color: rgb(14, 180, 246);
+    border-radius: 5px;
+    border: 2px solid rgb(27, 25, 25) ;
+    transition: all 0.2s ease;
+}
+.view{
+    border-radius: 7px;
+    color: rgb(14, 180, 246);
+    border: 3px solid rgb(14, 180, 246);
+    background-color:black;
+    transition: all 0.2s ease;
+}
+.view:active {
+    transform: scale(0.96);
+    }
+.hire:active {
+    transform: scale(0.96);
+    }
+.daal{
+    transform: scale(0.96);
+}    
+.nav{
+    
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+ /*   border-bottom: 4px solid rgb(14, 180, 246);
+    border-top: 3px solid   rgb(14, 180, 246); */
+    padding: 15px 0px;
+    /*background-color: rgb(14, 180, 246); */
+}
+.nav1{
+    padding-left: 195px;
+    
+
+}.nav1 span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav1 span:hover{
+    font-size: 30px;
+    font-weight: 800;
+}
+.navu{
+    text-decoration: none;
+    color: rgb(14, 180, 246);
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.nav2 a:hover{
+    color: white;
+    text-shadow: 1px 1px 5px rgb(14, 180, 246);
+}
+.container{
+    background-image: url(backgroundImage2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 53.2px;
+    height: 95vh;
+    width: 100vw;
+}
+.container1{
+    background-color: rgb(241, 232, 232);
+    height: 445px;
+    width: 100%;
+    padding-top: 17px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: black;
+}
+.header h3{
+    font-size: 26px;
+}
+.img{
+    width: 10vw;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+    border-radius: 50%;
+    background-color: white;
+}
+.img1{
+    text-align: center;
+}
+.about{
+  /* faaltu white space nhi rakhna*/ 
+    padding: 12px 2.5px 13px 13px ;
+    background-color: white;
+    border-radius: 8px;
+    background-color: rgb(14, 180, 246);
+    color: white;
+   text-shadow: 1px 1px 10px black;
+   box-shadow: 0px 0px 5px black;
+}
+p{
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+.section{
+    width:60% ;
+   margin: 5px auto;
+   display: grid;
+   grid-template-columns: 20% 70%;
+   height: fit-content;
+   grid-gap: 25px;
+}
+.container2{
+    background-color:rgb(14, 180, 246);
+    width: 100vw;
+}
+.header1 h3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color:  white;
+    font-size: 26px;
+}
+.section1{
+   width: fit-content;
+   margin: auto;
+   display: flex;
+   height: 340px;
+}
+.frontened{
+    width: 25vw;
+    margin-right: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    height: fit-content;
+}
+.other{
+    width: 25vw;
+    margin-left: 12px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0px 0px 5px black;
+}
+ul{
+    list-style-type: none;
+}
+.heading, .heading1{
+    background-color:rgb(241, 232, 232);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.skills1, .skills2{
+    text-align: center;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color:white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.skills2{
+    height: 225px;
+}
+h4{
+    font-size: 20px;
+}
+.bi{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.bi-filetype-html{
+    color: black;
+}
+.bi-tools{
+    color: black;
+}
+.bi{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.practice{
+    position: relative;
+    height: 500px;
+
+}
+.prac1,.prac2,.prac3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(14, 180, 246);
+    box-shadow: 2px 1px 7px black;
+    position: absolute;
+    box-sizing: border-box;
+    color: white;
+    font-size: 22px;
+}
+    /* .prac1{
+        padding: 80px;
+    }
+    .prac2{
+        left: 170px;
+        top: 100px;
+        padding: 80px 50px;
+    }
+    .prac3{
+        left: 340px;
+        top: 200px;
+        padding: 80px 50px;
+        transition: all 0.2s ease;
+    }
+    .prac3:active {
+    transform: scale(0.96);
+    } */
+
+
+
+    .container3{
+        width: 100vw;
+        background-color:  rgb(241, 232, 232);
+        height: 820px;
+    }
+    .projects h3{
+       text-align: center;
+       color: black;
+      
+    padding-top: 30px;
+    padding-bottom: 25px;
+    
+    font-size: 26px;
+    }
+    .projectContainer{
+       width: 70%;
+       height: fit-content;
+       color: white;
+      padding: 10px;
+      margin: auto;
+    }
+    .proContainer{
+        background-color: rgb(197, 193, 193);
+        width: 904px;
+        margin: auto;
+        padding: 15px;
+    }
+    .faltu .daal{
+        border: 2px solid black;
+        padding: 1px 10px;
+    }
+    .project1{
+       width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 45px;
+        height: fit-content;
+       color: black;
+    }
+    .project2{
+        background-color: rgb(14, 180, 246);
+        margin: auto;
+        display: flex;
+        width: 60%;
+        
+    }
+    .orange{
+        background-color: rgb(14, 180, 246);
+        width: 50%;
+        height: 300px;
+        box-shadow: 1px 1px 10px black;
+        
+    }
+    .pink{
+        background-color: rgb(14, 180, 246);
+        width: 20%;
+       
+    }
+    .project1Content{
+        text-align: center;
+        width: 40%;
+        line-height: 25px;
+        margin-right: 50px;
+    }
+    .faltu{
+       padding-top: 19px;
+    }
+    .alag{
+        text-align: center;
+        width: 40%;
+        margin-right: 80px;
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+    .rayta{
+       margin-bottom: 0px;
+    }
+   
+    .project1Content .bookHead{
+        padding-bottom: 19px;
+        font-size: 25px;
+        font-weight: 600;
+        color: black;
+        padding-top: 20px;
+        text-decoration: underline;
+    }
+    .project1Content button{
+        padding: 8px;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+       background-color: rgb(241, 232, 232);
+        color: black;
+    }
+    .project2Content{
+        width: 80%;
+    }
+    .container4{
+        background-color:  rgb(14, 180, 246);
+        width: 100vw;
+height: 280px;
+
+    }
+    .contact h3{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        color: white;
+        font-size: 26px;
+    }
+    .contactInfo{
+     
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .gmail{
+background-color: rgb(241, 232, 232);
+ padding: 10px 0;
+width: 31%;
+box-shadow: 0px 0px 5px rgb(86, 74, 74);
+    }
+    .ekjaisa{
+        padding-left: 9px;
+        font-size: 20px;
+        color: black;
+    }
+    .linkedIn{
+background-color:  rgb(241, 232, 232);
+padding: 10px 0;
+width: 31%;
+box-shadow: 0px 0px 5px rgb(86, 74, 74);
+    }
+    .gitHub{
+background-color: rgb(241, 232, 232);
+padding: 10px 0;
+width: 31%;
+box-shadow: 0px 0px 5px rgb(86, 74, 74);
+    }
+    
+    .align{
+        text-align: center;
+        margin-top: 15px;
+        font-weight: 600;
+       
+    }
+    .align a{
+        color: black;
+        text-decoration: none;
+    }
+    .coverup{
+        width: fit-content;
+        margin: auto;
+        background-color:rgb(14, 180, 246);
+       padding: 10px 10px 7px 10px;
+       
+        border-radius: 50%;
+    }
+.container5{
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    background-color:  rgb(241, 232, 232);
+ 
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+ 
+
+
+@keyframes blink{
+    0% { opacity: 1;}
+    50% { opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes blink{
+    0% { opacity: 1;}
+    50% { opacity: 0;}
+    100% {opacity: 1;}
+}
+@-moz-keyframes blink{
+    0% { opacity: 1;}
+    50% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
+   
+
+   
+
+
+
+
+
+
+/* --- large width pe bhi responsive banaana h ---   */
+@media screen and (max-width: 820px) {
+    .nav{
+        display: block;
+    }
+    .nav2{
+        padding-top: 25px;
+    }
+    .nav1{
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+@media  screen and (max-width: 560px) {
+    .section{
+        display: block;
+    }
+    .img{
+        margin-bottom: 8px;
+    }
+    .about{
+        
+        padding: 15px;
+    }
+    .container1{
+        height: fit-content;
+        /* about mai likhne ke baad container1 ki height check karni h*/
+    }
+}
+@media screen and (max-width: 562px){
+    .container1{
+       height: 580px;
+    }
+}
+
+@media screen and (max-width: 1015px){
+    .introContainer{
+        width: 45%;
+        padding-left: 50px;
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width: 830px){/* ipad */
+    
+    .introContainer{
+        width: 100%;
+        text-align: center;
+        padding-top: 55px;
+    }
+    .container{
+        width: 100%;
+        height: 900px;
+    }
+    .partition{
+        display: block;
+    }
+    .partition img{
+        margin-top: 55px;
+     margin-left: 190px;
+        width: 450px;
+    }
+    .container1{
+      height: 650px;
+    }
+    .section{
+        display: block;
+    }
+    .project1{
+        width: fit-content;
+         margin: auto;
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 45px;
+         height: fit-content;
+        color: black;
+     }
+     .projectContainer{
+        width: 100%;
+        height: fit-content;
+        color: white;
+       padding: 10px;
+     }
+     .container3{
+        height: 850px;
+     }
+     .navbar{
+        width: 100%;
+     }
+}
+
+@media screen and (max-width: 1520px ) and (min-width: 831px) {
+    .container{
+        height: 830px;
+    }
+    .container3{
+        height: 1030px;
+    }
+    .container1{
+        height: 580px;
+    }
+    }
+
+@media screen and (max-width: 432px){   /* phone */
+    .introContainer{
+        width: 100%;
+        text-align: center;
+        padding-top: 55px;
+        padding-left: 8px;
+    }
+    .container{
+        width: 100%;
+        height: 750px;
+    }
+    .partition{
+        display: block;
+    }
+    .partition img{
+        margin-top: 55px;
+     margin-left: 90px;
+        width: 300px;
+    }
+    .container1{
+      height: 1020px;
+    }
+    .section{
+        display: block;
+    }
+    .project1{
+        width: 205.2px;
+         margin: auto;
+         display: block;
+         justify-content: space-between;
+         margin-bottom: 5px;
+         height: fit-content;
+        color: black;
+     }
+     .container3{
+        height: fit-content;
+     }
+     .section1{
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        height: 340px;
+     }
+     .frontened{
+        width: 43vw;
+    }
+    .other{
+        width: 43vw;
+    }
+    .projectContainer{
+        width: fit-content;
+        height: fit-content;
+        color: white;
+     }
+     .project1Content{
+            text-align: center;
+            width: 205.2px;
+            line-height: 25px;
+            margin-right: 0px;
+     }
+     .orange{
+        background-color: rgb(14, 180, 246);
+        width: 100%;
+        height: 300px;
+        box-shadow: 1px 1px 10px black;
+        
+    }
+    .pink{
+        background-color: rgb(14, 180, 246);
+        width: 100%;
+       
+    }
+    .alag{
+        text-align: center;
+        width: 205.2px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .faltu{
+        padding-bottom: 20px;
+    }
+    .bookHead{
+        line-height: 35px;
+    }
+    .daal{
+        margin-bottom: 7px;
+        transition: all 0.2s ease;
+    }
+    .newsHead{
+        padding-top: 0px;
+    }
+    .container4{
+        height: 240px;
+    }
+    .nav{
+        display: block;
+        width: 100%;
+    }
+    .navbar{
+        width: 100vw;
+    }
+    html{
+        width: 100vw;
+    }
+}
+

@@ -1,0 +1,36 @@
+// let spacer;
+// const swiper = document.getElementById('navAbout');
+//   swiper.addEventListener('click', callme);
+
+//   function callme(){
+//     console.log('hello')
+//     spacer = document.getElementsByClassName('header')[0];
+//     spacer.style.marginTop = '80px';
+//   }
+
+//   window.addEventListener('scroll', callScroll);
+
+//   function callScroll(){
+//     console.log("hi");
+//     const scrollPosition = window.scrollY;
+//     const threshold = 600;
+
+//     if(scrollPosition > threshold){
+// spacer.style.marginTop = '0';
+//     }
+//   }
+
+
+var typed = new Typed('#element', {
+    strings: ['Front-End Developer', 'React Developer'],
+    typeSpeed: 50,
+    backSpeed: 40,
+    shuffle: true,
+    loop: true,
+    loopCount: Infinity,
+  });
+
+  
+
+  // let swipers = about.setAttribute('class' , 'swipe');
+  // swipers.style.color = 'red';
