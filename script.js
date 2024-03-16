@@ -30,7 +30,16 @@ var typed = new Typed('#element', {
     loopCount: Infinity,
   });
 
+
   
+
+
+  const demo = document.getElementById('demo');
+  demo.addEventListener('click', callDemo);
+
+  function callDemo(){
+    alert("currently not working API doesn't support on production mode");
+  }
 
   // let swipers = about.setAttribute('class' , 'swipe');
   // swipers.style.color = 'red';
