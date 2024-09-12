@@ -11,58 +11,84 @@
     />
   </head>
   <body>
-    <div class="container" id="home">
-      <div class="navbar">
-        <nav class="nav">
-          <div class="nav1">
-            <span>FRONT-END DEVELOPER</span>
-          </div>
-          <div class="nav2">
-            <a class="navu" id="navHome" href="#home">Home</a>
-            <a class="navu" id="navAbout" href="#about">About Me</a>
-            <a class="navu" id="navSkills" href="#skills">Skills</a>
-            <a class="navu" id="navProjects" href="#projects">Projects</a>
-            <a class="navu" id="navContact" href="#contact">Contact Me</a>
-          </div>
-        </nav>
-      </div>
-      <div class="partition">
-          <div class="introContainer">
-            <div class="intro"><span class="color1">Hi there! I'm </span><br> <span class="color2"> Dhruv <span class="color4">Dimri</span> </span><br><span class="color3" >A <span id="element"></span></span></div>
-            <a href="https://www.linkedin.com/in/dhruv-dimri-9710452b5" target="_blank"><button class="hire"> Hire Me</button></a>
+    <div class="navbar">
+      <nav class="nav">
+        <div class="nav1">
+          <span>FRONT-END DEVELOPER</span>
+        </div>
+        <div class="nav2">
+          <a class="navu" id="navHome" href="#home">Home</a>
+          <a class="navu" id="navAbout" href="#about">About Me</a>
+          <a class="navu" id="navSkills" href="#skills">Skills</a>
+          <a class="navu" id="navProjects" href="#projects">Projects</a>
+          <a class="navu" id="navContact" href="#contact">Contact Me</a>
+        </div>
+      </nav>
+    </div>
 
-            <a href="https://github.com/DhruvDimri?tab=repositories" target="_blank"><button class="view">View Projects</button></a>
+    <div id="home">
+      <div class="partition">
+        <div>
+          <div>
+            <span class="color1">Hi there! I'm </span><br />
+            <span class="color2"> Dhruv <span class="color4">Dimri</span> </span
+            ><br /><span class="color3">A <span id="element"></span></span>
           </div>
-          <img src="MainImage2.png" alt="Sorry">
+          <a
+            href="https://www.linkedin.com/in/dhruv-dimri-9710452b5"
+            target="_blank"
+            ><button class="hire">Hire Me</button></a
+          >
+          <a
+            href="https://github.com/DhruvDimri?tab=repositories"
+            target="_blank"
+            ><button class="view">View Projects</button></a
+          >
+        </div>
+        <div>
+          <img src="MainImage2.png" alt="Sorry" class="img-fluid" />
+        </div>
       </div>
     </div>
- 
 
-    <div class="container1" id="about">
-      <div class="header">
+    <div id="about">
+      <div>
         <h3>About Me</h3>
       </div>
       <div class="section">
-        <div class="img1">
-          <img class="img" src="laptopUser.jpg" alt="sorry" />
+        <div class="img">
+          <img class="img-fluid img1" src="laptopUser.jpg" alt="sorry" />
         </div>
         <div class="about">
           <p>
-            An enthusiast, self-learned <u> Frontend Developer</u>. Hi! I'm <u> Dhruv Dimri</u> of age 22 from Delhi, a recent graduate with a passion for Frontend Development. Yes, i don't hold a CS degree but my fasination of coding brought me to this field. I am constantly learning coding & expanding my knowledge of coding through courses and moreover with projects. Now, I am proficient as a fresher <u> Frontend Developer</u>. I have good knowledge of <u> HTML, CSS and JavaScript</u> which are core fundamental technologies for Frontend Development. Beside this, I can build fully <u> Responsive</u> Website by CSS framework like <u>Bootstrap</u> and also by <u>CSS Media Quries</u> which is also a part of Vanilla CSS. I also have a good knowledge of J.S framework which names as <u>React</u> & my other Skills are given below on Skills section. Now, I am just finding an opportunity to serve my knowlege on real world projects. 
+            An enthusiast, self-learned <u> Full Stack Developer</u>. Hi! I'm
+            <u> Dhruv Dimri</u> of age 22 from Delhi, a recent graduate. I am a 
+            passionate Full Stack Developer with a strong foundation in both
+            <u>front-end</u> and <u>back-end</u> technologies. Yes, i don't hold
+            a CS degree but my fascination of coding brought me to this field. I
+            am constantly learning coding & expanding my knowledge of coding
+            through courses, various projects and hands-on learning experiences.
+            Now, I am proficient as a fresher Full-stack Developer in <u>React,
+            Bootstrap, Node.js, Express.js</u> and <u>MongoDB</u>. I enjoy creating dynamic
+            and reponsive web applications. My all skills are given below in
+            <u>Skills</u> section. The live demo of my project is also available below
+            in the <u>Projects</u> section. Currently, I am seeking opportunities where
+            I can leverage my technical abilities and continue to grow as a
+            developer.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="container2">
-      <div class="header1" id="skills">
+    <div class="skills-cont" id="skills">
+      <div>
         <h3>My Skills</h3>
       </div>
       <div class="section1">
         <div class="frontened">
           <div class="heading">
             <i class="bi bi-filetype-html"></i>
-            <h4>Frontened</h4>
+            <h4 class="h4">Frontened</h4>
           </div>
           <div class="skills1">
             <ul>
@@ -74,15 +100,32 @@
               <li>Redux</li>
               <li>Redux Tool-Kit</li>
               <li>Bootstrap</li>
+              <li>Tailwind CSS</li>
+              <li>GSAP</li>
             </ul>
           </div>
         </div>
-        <div class="other">
-          <div class="heading1">
-            <i class="bi bi-tools"></i>
-            <h4>Others</h4>
+        <div class="frontened">
+          <div class="heading">
+            <i class="bi bi-code-slash"></i>
+            <h4 class="h4">Backend</h4>
           </div>
-          <div class="skills2">
+          <div class="skills1">
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Mongoose</li>
+              <li>Mongo DB</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="other">
+          <div class="heading">
+            <i class="bi bi-tools"></i>
+            <h4 class="h4">Others</h4>
+          </div>
+          <div class="skills1">
             <ul>
               <li>Git</li>
               <li>GitHub</li>
@@ -94,43 +137,103 @@
       </div>
     </div>
 
-    <div class="container3">
-      <div class="projects" id="projects">
+    <div class="project-cont" id="projects">
+      <div class="projects">
         <h3>Projects</h3>
       </div>
       <div class="projectContainer">
-       
         <div class="project1">
-          <img src="screenShot.png" alt="sorry" class="orange"></img>
+          <div class="project1Content">
+            <div class="bookHead">Headphone|| E-Commerce Website</div>
+            <div>
+              This project is a full-stack e-commerce application where users
+              can browse and purchase headphones, earphones, and AirPods. The
+              application allows users to filter products by price range and
+              other criteria, providing a tailored shopping experience. The
+              project emphasizes efficient coding practices and component
+              reusability.
+            </div>
+            <div class="project-button-group">
+              <button>React</button>
+              <button>Vanilla CSS</button>
+              <button>Node.js</button>
+              <button>Express.js</button>
+              <button>MongoDB</button> <br />
+              <a
+                href="https://github.com/DhruvDimri/headphone-fullstack-project"
+                target="_blank"
+                ><button class="project-button">
+                  Code<i class="bi bi-github ekjaisa"></i></button
+              ></a>
+              <a
+                href="https://headphone-fullstack-project.onrender.com"
+                target="_blank"
+                ><button class="project-button">
+                  Live Demo<i
+                    class="bi bi-arrow-up-right-square ekjaisa"
+                  ></i></button
+              ></a>
+            </div>
+          </div>
+          <img src="headphone-src.png" alt="sorry" class="project-image" />
+        </div>
+
+        <div class="project1">
+          <img src="screenShot.png" alt="sorry" class="project-image" />
           <div class="project1Content">
             <div class="bookHead">Booking|| Booking Website</div>
-            This website is an online platform that allows user to search rooms, hotels and flights across India by sitting at their couch. It also helps user to search by destination, date, and no. of member.  At last user will find discounts, reviews, and a perfect stay on any budget!✈️🏨🌎 <br>
-            <div class="faltu">
-            <button>React</button>
-            <button>Vanilla CSS</button>
-            <button>Bootstrap-icons</button> <br>
-            <a href="https://github.com/DhruvDimri/booking-react" target="_blank"><button class="daal">Code<i class="bi bi-github ekjaisa"></i></button></a>
-            <a href="https://booking-nest.netlify.app/" target="_blank"><button class="daal">Live Demo<i class="bi bi-arrow-up-right-square ekjaisa"></i></button></a>
+            <div>
+              This website is an online platform that allows user to search
+              rooms, hotels and flights across India by sitting at their couch.
+              It also helps user to search by destination, date, and no. of
+              member. At last user will find discounts, reviews, and a perfect
+              stay on any budget!✈️🏨🌎
+            </div>
+            <div class="project-button-group">
+              <button>React</button>
+              <button>Vanilla CSS</button>
+              <button>Bootstrap-icons</button><br />
+              <a
+                href="https://github.com/DhruvDimri/booking-react"
+                target="_blank"
+                ><button class="project-button">
+                  Code<i class="bi bi-github ekjaisa"></i></button
+              ></a>
+              <a href="https://booking-nest.netlify.app/" target="_blank"
+                ><button class="project-button">
+                  Live Demo<i
+                    class="bi bi-arrow-up-right-square ekjaisa"
+                  ></i></button
+              ></a>
             </div>
           </div>
         </div>
 
-
-        <div class="project1 rayta">
-          <div class="project1Content alag">
-            <div class="bookHead newsHead">News-Hub|| Online Newspaper</div>
-            This is a news website through which user can read top-headlines as well as entire news in detail. Also, any individual user can read news, category wise and country wise📰🗞️ <br>
-            <div class="faltu">
+        <div class="project1">
+          <div class="project1Content">
+            <div class="bookHead">News-Hub|| Online Newspaper</div>
+            <div>
+              This is a news website through which user can read top-headlines
+              as well as entire news in detail. Also, any individual user can
+              read news, category wise and country wise📰🗞️
+            </div>
+            <div class="project-button-group">
               <button>React</button>
               <button>Vanilla CSS</button>
-              <button>Bootstrap</button> <br>
-              <a href="https://github.com/DhruvDimri/news-hub-react" target="_blank"><button class="daal">Code<i class="bi bi-github ekjaisa"></i></button></a>
-              <button class="daal" id="demo">Live Demo<i class="bi bi-arrow-up-right-square ekjaisa"></i></button>
+              <button>Bootstrap</button> <br />
+              <a
+                href="https://github.com/DhruvDimri/news-hub-react"
+                target="_blank"
+                ><button class="project-button">
+                  Code<i class="bi bi-github ekjaisa"></i></button
+              ></a>
+              <button class="project-button" id="demo">
+                Live Demo<i class="bi bi-arrow-up-right-square ekjaisa"></i>
+              </button>
             </div>
           </div>
-          <img src="Screenshot1.png" alt="sorry" class="orange"></img>
-
-      </div>
+          <img src="Screenshot1.png" alt="sorry" class="project-image" />
+        </div>
       </div>
     </div>
 
@@ -139,28 +242,57 @@
         <h3>Contact Me</h3>
       </div>
       <div class="contactInfo">
-        <div class="gmail"><div class="unique"><div class="coverup"><a href="mailto:dhruv21dimri@gmail.com" target="_blank"><i class=" bi bi-envelope-at-fill"></i></a></div></div><div class="align"><a href="mailto:dhruv21dimri@gmail.com" target="_blank">Email</a></div></div>
+        <div class="gmail">
+          <div class="unique">
+            <div class="coverup">
+              <a href="mailto:dhruv21dimri@gmail.com" target="_blank"
+                ><i class="bi bi-envelope-at-fill"></i
+              ></a>
+            </div>
+          </div>
+          <div class="align">
+            <a href="mailto:dhruv21dimri@gmail.com" target="_blank">Email</a>
+          </div>
+        </div>
 
-        <div class="linkedIn"><div class="unique"><div class="coverup"><a href="https://www.linkedin.com/in/dhruv-dimri-9710452b5" target="_blank"><i class="bi bi-linkedin"></i></a></div></div><div class="align"><a href="https://www.linkedin.com/in/dhruv-dimri-9710452b5" target="_blank">LinkedIn</a></div></div>
+        <div class="linkedIn">
+          <div class="unique">
+            <div class="coverup">
+              <a
+                href="https://www.linkedin.com/in/dhruv-dimri-9710452b5"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="align">
+            <a
+              href="https://www.linkedin.com/in/dhruv-dimri-9710452b5"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
 
-        <div class="gitHub"><div class="unique"><div class="coverup"><a href="https://github.com/DhruvDimri" target="_blank"><i class="bi bi-github"></i></a></div></div><div class="align"><a href="https://github.com/DhruvDimri">GitHub</a></div></div>
+        <div class="gitHub">
+          <div class="unique">
+            <div class="coverup">
+              <a href="https://github.com/DhruvDimri" target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="align">
+            <a href="https://github.com/DhruvDimri">GitHub</a>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="container5">
       <p>Dhruv Dimri(Front-End Developer) &copy; 2024</p>
     </div>
- 
-
-    <!-- <div class="practice">
-      <div class="prac1">Dhruv</div>
-      <div class="prac2">Frontened</div>
-      <div class="prac3">Developer</div>
-    </div> -->
-
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-   <script src="script.js"></script>
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
   </body>
-  
 </html>

@@ -22,7 +22,7 @@
 
 
 var typed = new Typed('#element', {
-    strings: ['Front-End Developer', 'React Developer'],
+    strings: ['Front-End Developer', 'React Developer','Backend Developer'],
     typeSpeed: 50,
     backSpeed: 40,
     shuffle: true,
@@ -38,7 +38,7 @@ var typed = new Typed('#element', {
   demo.addEventListener('click', callDemo);
 
   function callDemo(){
-    alert("currently not working API doesn't support on production mode");
+    alert("currently not working because this API doesn't support on production mode without subscription");
   }
 
   // let swipers = about.setAttribute('class' , 'swipe');
